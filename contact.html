@@ -20,7 +20,9 @@
   </head>
   <body>
     <section class="heading">
-      <div class="logo"><a href="index.html">Meowy</a></div>
+      <div class="logo">
+        <a class="nav-item-link" href="index.html">Meowy</a>
+      </div>
       <nav class="nav">
         <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
@@ -28,10 +30,15 @@
         </label>
 
         <ul class="nav-list">
-          <li class="nav-item"><a href="index.html">Home</a></li>
-          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
-          <li class="nav-item"><a href="blog.html">Blog</a></li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link-highlight" href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </section>
@@ -39,7 +46,11 @@
     <section class="form-container">
       <form class="form" action="https://formspree.io/f/mldegjgv" method="POST">
         <h1>Connect with Me!</h1>
-        <br />
+        <p>
+          I hope to connect with fellow cat lovers and spark conversations about
+          our favorite cat breed and videos! If you want to leave a comment or
+          message, fill out the form below.
+        </p>
 
         <label class="field-1">
           First Name:
@@ -67,12 +78,29 @@
       </form>
     </section>
 
+    <h2>or</h2>
+    <section class="socials">
+      <h1>Follow Me</h1>
+      <div class="social-media">
+        <a href="https://www.facebook.com/shiela.daguio04/" target="_blank"
+          ><img src="images/facebook.jpeg" alt="Facebook"
+        /></a>
+        <a href="https://www.instagram.com/aleihs96/" target="_blank"
+          ><img src="images/instagram.png" alt="Instagram"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/shiela-daguio-892a60264/"
+          target="_blank"
+          ><img src="images/linkedln.png" alt="LinkedIn"
+        /></a>
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+        <a class="footer-list-link" href="index.html">Home</a>
+        <a class="footer-list-link" href="gallery.html">Gallery</a>
+        <a class="footer-list-link" href="contact.html">Contact</a>
       </div>
       <div class="footer-info">
         <p>&copy; 2024 Shiela Daguio All rights reserved.</p>

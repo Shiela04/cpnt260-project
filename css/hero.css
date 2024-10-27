@@ -1,21 +1,24 @@
-/* .hero {
-    background-image: url('images/blue-wallpaper.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/blue-wallpaper.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 1px solid black;
+  background: linear-gradient(rgba(19, 21, 141, 0.646), rgba(97, 27, 7, 0.947));
+  border-radius: 15px;
   margin: 50px auto;
-  padding: 10px;
+  padding: 30px;
   max-width: 600px;
   width: 100%;
   gap: 20px;
+  color: white;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  text-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
 }
