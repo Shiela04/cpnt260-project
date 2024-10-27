@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+
+.cat-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 50px;
+}
+
+.cat-card {
+  background: linear-gradient(rgba(19, 21, 141, 0.646), rgba(97, 27, 7, 0.947));
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+.cat-card img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+}
+
+/* tablet 768px - 1024px */
+
+@media screen and (min-width: 768px) {
+  .cat-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/* desktop - > 1024px */
+
+@media screen and (min-width: 1024px) {
+  .cat-gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
