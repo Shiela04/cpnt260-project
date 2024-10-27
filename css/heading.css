@@ -45,6 +45,7 @@ body {
   align-items: center;
   transition: 0.3s;
   gap: 10px;
+  padding-right: 15px;
 }
 
 .nav-list li {
@@ -52,15 +53,13 @@ body {
   font-size: 20px;
 }
 
-.nav-list li,
-a {
+.nav-item-link {
   display: inline-block;
   list-style: none;
   color: white;
   text-decoration: none;
 }
-.nav-list li,
-a:hover {
+.nav-item-link:hover {
   text-decoration: underline;
 }
 
@@ -90,13 +89,16 @@ a:hover {
     justify-content: flex-end;
     position: static;
     gap: 20px;
-    padding-right: 15px;
     align-items: center;
+  }
+
+  .nav-list li {
+    margin: 0;
+    font-size: 20px;
   }
 
   .nav-list li,
   a {
-    font-size: 20px;
     text-decoration: none;
   }
 
@@ -115,8 +117,7 @@ a:hover {
   .nav-list {
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
-    padding-right: 15px;
+    gap: 25px;
   }
 
   .nav-list li,

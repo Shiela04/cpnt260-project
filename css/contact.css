@@ -1,0 +1,57 @@
+.form {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 600px;
+  gap: 15px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background: linear-gradient(rgba(19, 21, 141, 0.646), rgba(97, 27, 7, 0.947));
+  border-radius: 5px;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.406);
+}
+
+input:hover {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+input:focus {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+input:active {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.406);
+}
+
+textarea:hover {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+textarea:focus {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+textarea:active {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+/* tablet 768px - 1024px */
+
+/* desktop > 1024 */
